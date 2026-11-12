@@ -1,0 +1,125 @@
+.root {
+    -fx-font-size: 13px;
+    -fx-accent: #4536a3;
+    -fx-focus-color: #6253bf;
+    -fx-faint-focus-color: transparent;
+}
+
+.page {
+    -fx-background-color: #f4f5fa;
+    -fx-padding: 24px;
+}
+
+.label {
+    -fx-text-fill: #222941;
+}
+
+.title {
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+}
+
+.subtitle {
+    -fx-text-fill: #56617a;
+}
+
+.counter {
+    -fx-background-color: #e9e5fb;
+    -fx-background-radius: 9px;
+    -fx-padding: 9px 14px;
+    -fx-text-fill: #382a87;
+    -fx-font-weight: bold;
+}
+
+.panel {
+    -fx-background-color: white;
+    -fx-background-radius: 13px;
+    -fx-border-color: #dfe2ed;
+    -fx-border-radius: 13px;
+    -fx-effect: dropshadow(gaussian, rgba(34, 41, 65, 0.07), 13, 0, 0, 3);
+    -fx-padding: 18px;
+}
+
+.section-title {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+
+.text-field, .combo-box, .button {
+    -fx-min-height: 36px;
+    -fx-background-radius: 7px;
+    -fx-border-radius: 7px;
+    -fx-border-color: #c8cde0;
+    -fx-background-color: white;
+}
+
+.text-field {
+    -fx-padding: 0 10px;
+    -fx-prompt-text-fill: #59647b;
+}
+
+.button {
+    -fx-padding: 0 10px;
+    -fx-cursor: hand;
+    -fx-font-weight: bold;
+    -fx-text-fill: #382a87;
+}
+
+.button:hover {
+    -fx-background-color: #f1eefb;
+}
+
+.button.primary {
+    -fx-background-color: #4536a3;
+    -fx-border-color: #4536a3;
+    -fx-text-fill: white;
+}
+
+.button.primary:hover {
+    -fx-background-color: #362880;
+}
+
+.button.danger, .error {
+    -fx-text-fill: #a1263b;
+}
+
+.button.danger:hover {
+    -fx-background-color: #fff0f3;
+}
+
+.success {
+    -fx-text-fill: #216240;
+}
+
+.text-field:focused, .combo-box:focused, .button:focused, .table-view:focused {
+    -fx-border-color: #6253bf;
+    -fx-effect: dropshadow(gaussian, rgba(98, 83, 191, 0.36), 4, 0.25, 0, 0);
+}
+
+.table-view {
+    -fx-background-color: white;
+    -fx-border-color: #dfe2ed;
+    -fx-cell-size: 36px;
+}
+
+.table-view .column-header, .table-view .filler {
+    -fx-background-color: #eef0f8;
+    -fx-size: 36px;
+}
+
+.table-view .column-header .label {
+    -fx-alignment: center-left;
+    -fx-padding: 0 0 0 7px;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #f8f9fd;
+}
+
+.table-row-cell:filled:selected {
+    -fx-background-color: #4536a3;
+}
+
+.table-row-cell:filled:selected .table-cell {
+    -fx-text-fill: white;
+}
